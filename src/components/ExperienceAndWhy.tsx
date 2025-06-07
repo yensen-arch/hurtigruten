@@ -1,23 +1,23 @@
 import { Card, CardContent } from "@/components/ui/card";
 
 const experiences = [{
-  title: "Expedition-Focused Travel",
-  description: "Led by expert expedition teams, enjoy daily landings, wildlife encounters, and in-depth lectures that enrich your experience.",
+  title: "Norwegian Coastal Voyages",
+  description: "Since 1893, Hurtigruten has operated along Norway’s coast, connecting remote communities and travelers.",
   color: "bg-blue-50 text-blue-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684533/cld-sample-4.jpg"
 }, {
-  title: "Sustainable Discovery",
-  description: "Hurtigruten is a global leader in green cruising, operating hybrid ships and supporting conservation and community projects worldwide.",
+  title: "Authentic Local Experiences",
+  description: "Trips emphasize cultural insight, Norwegian cuisine, and immersive shore excursions.",
   color: "bg-rose-50 text-rose-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684532/samples/cup-on-a-table.jpg"
 }, {
-  title: "Polar & Coastal Immersion",
-  description: "Whether navigating Arctic ice or Norway’s scenic coast, every itinerary showcases wild beauty and cultural depth.",
+  title: "Sustainable Operations",
+  description: "Fleet includes hybrid-powered ships and a strong commitment to eco-conscious travel.",
   color: "bg-amber-50 text-amber-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684530/samples/balloons.jpg"
 }, {
-  title: "Comfort with a Purpose",
-  description: "Enjoy Scandinavian-inspired comfort, casual onboard dining, and warm camaraderie—all wrapped in a spirit of adventure.",
+  title: "Year-Round Departures",
+  description: "Cruises available throughout the seasons to witness midnight sun or Northern Lights.",
   color: "bg-emerald-50 text-emerald-600",
   image: "https://res.cloudinary.com/dqh2tacov/image/upload/v1734684526/samples/landscapes/beach-boat.jpg"
 }];
@@ -68,7 +68,7 @@ const ExperienceAndWhy = () => {
           <div className="w-24 h-1 bg-viking-gold mx-auto"></div>
         </div>
 
-        {/* Viking River Cruises Section */}
+        {/* Hurtigruten Section */}
         <div className="mb-24">
           <div className="mb-12 flex justify-center border-2 border-viking-gold py-4">
             <img
